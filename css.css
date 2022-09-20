@@ -1,0 +1,92 @@
+*{
+    background:rgb(58, 56, 65);
+    color: white;
+}
+header{
+    text-align: center;
+    font-size: 60px;
+}
+ul{
+    background-color: rgb(44, 44, 56);
+    display: inline-block;
+    padding-right: 100px;
+    border: 1px black solid;
+}
+ol{
+    background-color: transparent;
+}
+ol>li{
+    list-style-type: none;
+}
+li.indice{
+    text-align: center;
+    list-style: none;
+    font-size: 24px;
+}
+li{
+    background-color: rgb(44, 44, 56);
+    list-style-type: circle;
+}
+li>a{
+    text-decoration: none;
+    background-color: transparent;
+}
+.imag{
+    height: 246px;
+    width: 512px;
+    border: 2px solid black;
+    position: absolute;
+    left: 818px;
+    top: 40%;
+}
+.imag img{
+    height: inherit; 
+    width: inherit;
+}
+h2{
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    left: 40%;
+}
+.secciona{
+    width: 1324px;
+    position: relative;
+}
+.ims img{
+    height: 246px; 
+    width: 512px;
+    border: 2px solid black;
+    float: right;
+    } 
+    h3{
+        position: relative;
+        top: -2%;
+        left: 35%;
+        font-size: 24px;
+        display: inline-block;
+    }
+.seccionb{
+    position: relative;
+    top: -25px;
+    width: 1295px;
+}
+.subcontenido{
+    border: 1px solid black;
+    width: 250px;
+    background-color: rgb(44, 44, 56);
+    float: right;
+}
+.subcontenido>p{
+    background-color: transparent;
+}
+.subcontenido>p>em{
+    background-color: transparent;
+}
+.subcontenido>p>strong{
+    background-color: transparent;
+}
+.subcontenido>p>b{
+    background-color: transparent;
+}
